@@ -469,6 +469,7 @@ optgroup {
 .main-about img {
   width: 240px;
   height: 240px;
+  border-radius: 50%;
 }
 .main-about-tittle {
   margin-top: 30px;
@@ -562,6 +563,18 @@ optgroup {
 .main-projects-bar .down p {
   font-size: 14px;
   margin-left: 5px;
+}
+.main-text-area-p{
+  border: 1px solid #ccc;
+  margin-top: 10px;
+  margin-left: 22px;
+  width: 92%;
+}
+.readme {
+  margin-left: 30px;
+}
+.readme-desc {
+  margin-left: 20px;
 }
 
 .icon {
