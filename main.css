@@ -434,8 +434,10 @@ optgroup {
   color: #fff;
   border: none;
   margin-right: 16px;
+  margin-left: 300px;
   border-radius: 3px;
-  background-color: hsla(0, 0%, 100%, 0.125);
+  background-color:  #ccc;
+  max-width: 360px;
 }
 .Header-search svg {
   position: absolute;
@@ -456,6 +458,28 @@ optgroup {
   color: #ccc;
   margin-left: 15px;
 }
+.Header-svg1{
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-left: 250px;
+ 
+  
+ 
+}
+.Header-svg{
+
+   
+}
+.Header-svg img {
+  width: 25px;
+  height: 25px;
+  background: #e1e1e1;
+  border-radius: 10px;
+}
+
 
 .main {
   max-width: 1200px;
@@ -479,7 +503,7 @@ optgroup {
 }
 .main-about-tittle h4 {
   padding-bottom: 5px;
-  color: #b3b7bb;
+  color: gray;
 }
 .main-about-tittle button {
   width: 100%;
